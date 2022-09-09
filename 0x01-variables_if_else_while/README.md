@@ -1,0 +1,1 @@
+task 0 -use an if else statement to check if random number is positive,negative or equal to zero.
