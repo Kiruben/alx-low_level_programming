@@ -16,6 +16,10 @@ while (second_num <= '9')
 {
 putchar(first_num);
 putchar(second_num);
+if (first_num == '8' && second_num++ == '9')
+{
+break;
+}
 putchar(',');
 putchar(' ');
 second_num++;
