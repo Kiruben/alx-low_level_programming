@@ -1,6 +1,8 @@
 #include <stdio.h>
 /*
-* main - Prints alphabet in lowercase
+* main - prints alphabet in lowercase
+*
+*Desciption: Prints lowercase alphabet using while loop
 *
 *Return: Always 0 (Success)
 */
