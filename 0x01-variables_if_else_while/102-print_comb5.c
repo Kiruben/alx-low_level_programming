@@ -29,6 +29,6 @@ second_num++;
 }
 first_num++;
 }
-puthcar('\n');
+putchar('\n');
 return (0);
 }
