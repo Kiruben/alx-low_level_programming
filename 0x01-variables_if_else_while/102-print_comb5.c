@@ -1,9 +1,9 @@
 #include <stdio.h>
 /**
- *main - entry point
- *description - prints all possible combos of two
+ *main - Entry point
+ *Description - prints all possible combos of two
  *two-digit numbers
- *return - always 0 (success)
+ *Return - Always 0 (success)
  */
 int main(void)
 {
