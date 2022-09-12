@@ -29,5 +29,6 @@ second_num++;
 }
 first_num++;
 }
+puthcar('\n');
 return (0);
 }
