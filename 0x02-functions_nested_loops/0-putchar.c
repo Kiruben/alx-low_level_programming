@@ -1,11 +1,15 @@
-#include <unistd.h>
+#include "main.h"
 /**
- *_putchar - entry point
- *c - represents character to print
+ *main - entry point
  *Description - prints "_putchar"
  *Return: Always 0 (success)
  */
-int _putchar (char c)
+int main(void)
 {
-return (write(0, &c, 1));
+char c[8] = "_putchar";
+int i;
+for (i = 0; i < 8; i++)
+_putchar(c[i]);
+_putchar('\n');
+return (0);
 }
