@@ -1,6 +1,7 @@
 /**
- *_isalpha(int c) - prototype function
+ *_isalpha - prototype function
  *@c: character to evaluate
+ *
  *Description: evaluate character to check if it
  *is a alphabet lowercase or uppercase
  *Return: 1 if is a letter 0 anything else
