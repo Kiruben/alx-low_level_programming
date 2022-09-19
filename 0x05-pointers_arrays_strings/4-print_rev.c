@@ -13,7 +13,7 @@ while (s[size] != '\0')
 {
 size++;
 }
- while (size)
+while (size)
 {
 _putchar(s[--size]);
 }
