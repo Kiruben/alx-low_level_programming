@@ -15,8 +15,7 @@ size++;
 }
 while (size >= 0)
 {
-_putchar(s[size]);
-size--;
+_putchar(s[--size]);
 }
 _putchar('\n');
 }
