@@ -1,0 +1,6 @@
+#IFNDEF "main.h"
+#DEFINE "main.h"
+
+void reset_to_98(int *);
+
+#ENDIF
