@@ -18,9 +18,6 @@ for (i = 0; i < size && src[i] != '\0'; i++)
 {
 dest[i] = src[i];
 }
-for (; i < size; i++)
-{
-dest[i] = '\0';
-}
+dest[size] = '\0';
 return (dest);
 }
