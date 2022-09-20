@@ -17,7 +17,7 @@ size++;
 if ((size - 1) % 2 == 0)
 {
 half_size = 0;
-size = size / 2;
+size = (size + 1) / 2;
 while (half_size < size)
 {
 _putchar(s[half_size]);
