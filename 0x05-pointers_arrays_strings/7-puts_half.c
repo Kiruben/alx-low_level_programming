@@ -17,11 +17,11 @@ size++;
 }
 if ((size - 1) % 2 == 0)
 {
-i = size / 2;
+i = (size + 1) / 2;
 }
 else
 {
-i = (size + 1) / 2;
+i = (size) / 2;
 }
 while (i < size)
 {
