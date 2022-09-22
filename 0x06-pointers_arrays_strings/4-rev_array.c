@@ -11,7 +11,8 @@ int i;
 int temp_num;
 i = 0;
 n--;
-while (i != n)
+
+while (i < n)
 {
 temp_num = a[i];
 a[i] = a[n];
