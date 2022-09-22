@@ -9,8 +9,23 @@
  */
 char *_strncpy(char *dest, char *src, int n)
 {
+int src_size;
 int i;
+char *temp_src;
+temp_src = src;
+src_size = 0;
 i = 0;
+while (*src)
+{
+src_size++;
+src++;
+}
+src_size++;
+if (n > src_size)
+{
+n = src_size;
+}
+src = temp_src;
 while (i < n)
 {
 dest[i] = src[i];
