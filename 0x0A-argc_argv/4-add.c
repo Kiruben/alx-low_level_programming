@@ -13,6 +13,8 @@ int main(int argc, char **argv)
 int num;
 int total;
 int count;
+total = 0;
+num = 0;
 while (argc-- > 1)
 {
 for (count = 0; argv[argc][count]; count++)
