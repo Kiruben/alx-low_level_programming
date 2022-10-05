@@ -16,14 +16,17 @@ return (NULL);
 temp_array = (int **)malloc(sizeof(int *) * height);
 if (temp_array == NULL)
 {
-free(*temp_array);
+free(temp_array);
 return (NULL);
 }
 for (; i < height; i++)
 {
 temp_array[i] = (int *)malloc(sizeof(int) * width);
 if (temp_array[i] == NULL)
+{
+free(temp_array);
 return (NULL);
+}
 }
 for (i = 0; i < height; i++)
 for (; j < width; j++)
