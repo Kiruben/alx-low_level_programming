@@ -16,7 +16,7 @@ return (NULL);
 temp_array = (int **)malloc(sizeof(int *) * height);
 if (temp_array == NULL)
 {
-free(temp_array);
+free(*temp_array);
 return (NULL);
 }
 for (; i < height; i++)
