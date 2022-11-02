@@ -12,7 +12,7 @@ int i = 0, j = 0;
 char *str;
 char *separators = "cifs";
 va_start(ap, format);
-while (format[i] && format != NULL)
+while (format != NULL && format[i])
 {
 switch (format[i])
 {
@@ -44,6 +44,6 @@ j++;
 i++;
 j = 0;
 }
-printf("\n");
 va_end(ap);
+printf("\n");
 }
