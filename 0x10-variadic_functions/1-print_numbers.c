@@ -8,10 +8,6 @@
  */
 void print_numbers(const char *separator, const unsigned int n, ...)
 {
-if (n == 0)
-return;
-else
-{
 if (separator == NULL)
 {
 unsigned int i;
@@ -37,6 +33,5 @@ printf("%s", separator);
 }
 va_end(ap);
 printf("\n");
-}
 }
 }
