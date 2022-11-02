@@ -29,7 +29,6 @@ case 's':
 str = va_arg(ap, char*);
 if (str == NULL)
 printf("(nil)");
-else
 printf("%s", str);
 break;
 }
