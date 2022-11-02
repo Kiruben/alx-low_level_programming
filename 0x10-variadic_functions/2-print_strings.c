@@ -8,10 +8,6 @@
  */
 void print_strings(const char *separator, const unsigned int n, ...)
 {
-if (n == 0)
-return;
-else
-{
 va_list ap;
 unsigned int i;
 char *temp_string;
@@ -28,5 +24,4 @@ printf("%s", separator);
 }
 va_end(ap);
 printf("\n");
-}
 }
